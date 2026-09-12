@@ -58,7 +58,7 @@ export async function quiz(client, message, args) {
 
   global.activeQuiz[remoteJid] = { answer: item.a.toLowerCase() };
 
-  const text = `🎯 *GHETTO BOT — QUIZ* 🎯\n\n` +
+  const text = `🎯 *GETO BOT — QUIZ* 🎯\n\n` +
                `❓ *Question :* ${item.q}\n\n` +
                `👉 *Écris ta réponse directement dans le chat !*`;
 
